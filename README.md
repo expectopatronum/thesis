@@ -6,13 +6,13 @@ This web page accompanies the thesis written by Verena Praher ``Human-friendly E
 
 ### Demonstration on Real-world Data: Automatic Music Tagging
 
-[MML2020](https://soundcloud.com/veroamilbe/sets/mml2020-explanation-example)
-[ISMIR2020](https://expectopatronum.github.io/demos/towards_musically_meaningful_explanations.html)
+* [MML2020](https://soundcloud.com/veroamilbe/sets/mml2020-explanation-example)
+* [ISMIR2020](https://expectopatronum.github.io/demos/towards_musically_meaningful_explanations.html)
 
 
 ### Demonstration on Real-world Data: Music Recommendation
 
-[LEMONS](https://github.com/cpjku/lemons)
+* [LEMONS](https://github.com/cpjku/lemons)
 
 ## Mid-level Interpretable Representations (Chapter 4)
 
