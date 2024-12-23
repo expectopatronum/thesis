@@ -21,3 +21,4 @@ This web page accompanies the thesis written by Verena Praher ``Human-friendly E
 
 ## Concept-based Explanations (Chapter 5)
 
+* [ISMIR 2022](https://github.com/CPJKU/composer_concept)
