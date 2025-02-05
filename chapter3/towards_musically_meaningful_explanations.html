@@ -13077,7 +13077,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>This is the accompanying web page for the publication "Towards Musically Meaningful Explanations Using Source Separation". It provides audio examples for Section 4 "Basic Validation of audioLIME" and Section 5 "Demonstration on Real-World Data: Automated Music Tagging".</p>
+<p>This is the accompanying web page for Chapter 3 in my thesis. It provides audio examples for Section 3.5 "Experimental Validation of audioLIME" and Section 3.6 "Demonstration on Real-world Data: Automated Music Tagging".</p>
 <p>Note: In Firefox some of the audio controls display incorrect durations (this is a known bug). But the audios are played correctly.</p>
 
 </div>
@@ -13103,7 +13103,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Basic-Validation-of-audioLIME-(Section-4)">Basic Validation of audioLIME (Section 4)<a class="anchor-link" href="#Basic-Validation-of-audioLIME-(Section-4)">&#182;</a></h1><h2 id="Dataset-Creation-&amp;-&quot;Bad&quot;-Classifier">Dataset Creation &amp; "Bad" Classifier<a class="anchor-link" href="#Dataset-Creation-&amp;-&quot;Bad&quot;-Classifier">&#182;</a></h2><p>Here we show a few examples (10 second snippets) from the dataset for the "Guitar vs. Piano" task. In the training, validation and standard test set each "Guitar" example contains guitar, bass, and drums, and each "Piano" example contains piano and bass. In the bad test set each "Guitar" example contains guitar and bass, and each "Piano" example contains piano, bass, and drums.</p>
+<h1 id="Experimental-Validation-of-audioLIME-(Section-3.5)">Experimental Validation of audioLIME (Section 3.5)<a class="anchor-link" href="#Experimental-Validation-of-audioLIME-(Section-3.5)">&#182;</a></h1><h2 id="Dataset-Creation-&amp;-&quot;Confused&quot;-Classifier">Dataset Creation &amp; "Confused" Classifier<a class="anchor-link" href="#Dataset-Creation-&amp;-&quot;Confused&quot;-Classifier">&#182;</a></h2><p>Here we show a few examples (10 second snippets) from the dataset for the "Guitar vs. Piano" task. In the training, validation and standard test set each "Guitar" example contains guitar, bass, and drums, and each "Piano" example contains piano and bass. In the confused test set each "Guitar" example contains guitar and bass, and each "Piano" example contains piano, bass, and drums.</p>
 <p>Next to the track name you see the predictions by the model GP$_{\text{bass}}$ (averaged over the 5 2-second windows without overlap).</p>
 <table>
   <tr>
@@ -13137,7 +13137,7 @@ div#notebook {
   </tr>
 
   <tr>
-    <td style="text-align:left">test_bad</td>
+    <td style="text-align:left">test_confused</td>
     <td><p style="text-align:center">Track02098 ($\hat{y}=0.251$)</p>
         <audio controls src="audio/02098_guitar_b_snippet.wav"></audio></td>
     <td><p style="text-align:center">Track02095 ($\hat{y}=0.0$)</p>
@@ -13159,7 +13159,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Detecting-the-Confounding-Class">Detecting the Confounding Class<a class="anchor-link" href="#Detecting-the-Confounding-Class">&#182;</a></h2><p>When we listen to the bottom right sample (test_bad / Track02095) we wonder why the model didn't recognize it as piano, and why it can be so sure that it is a guitar. We take the first 61 frames (2 seconds) since the model was trained on 2 seconds snippets.</p>
+<h2 id="Detecting-the-Confounding-Class">Detecting the Confounding Class<a class="anchor-link" href="#Detecting-the-Confounding-Class">&#182;</a></h2><p>When we listen to the bottom right sample (test_confused / Track02095) we wonder why the model didn't recognize it as piano, and why it can be so sure that it is a guitar. We take the first 61 frames (2 seconds) since the model was trained on 2 seconds snippets.</p>
 
 </div>
 </div>
@@ -13288,7 +13288,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Demonstration-on-Real-World-Data:-Automated-Music-Tagging">Demonstration on Real-World Data: Automated Music Tagging<a class="anchor-link" href="#Demonstration-on-Real-World-Data:-Automated-Music-Tagging">&#182;</a></h1><p>In this section we demonstrate audioLIME on a two real recordings from <a href="https://sigsep.github.io/datasets/musdb.html">MUSDB18</a> and a song found on YouTube.</p>
+<h1 id="Demonstration-on-Real-World-Data:-Automated-Music-Tagging">Demonstration on Real-World Data: Automated Music Tagging (Section 3.6)<a class="anchor-link" href="#Demonstration-on-Real-World-Data:-Automated-Music-Tagging">&#182;</a></h1><p>In this section we demonstrate audioLIME on a two real recordings from <a href="https://sigsep.github.io/datasets/musdb.html">MUSDB18</a> and a song found on YouTube.</p>
 
 </div>
 </div>
@@ -13750,7 +13750,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Hugh-Laurie---Saint-James-Infirmary-(Let-Them-Talk,-A-Celebration-of-New-Orleans-Blues)">Hugh Laurie - Saint James Infirmary (Let Them Talk, A Celebration of New Orleans Blues)<a class="anchor-link" href="#Hugh-Laurie---Saint-James-Infirmary-(Let-Them-Talk,-A-Celebration-of-New-Orleans-Blues)">&#182;</a></h2><p>In this section we test audioLIME using spleeter:5stems as our separation model on a song found on YouTube. Unfortunately the video owner disabled playback on other websites, please click "Watch this video on YouTube."</p>
+<h2 id="Hugh-Laurie---Saint-James-Infirmary-(Let-Them-Talk,-A-Celebration-of-New-Orleans-Blues)">Hugh Laurie - Saint James Infirmary (Let Them Talk, A Celebration of New Orleans Blues)<a class="anchor-link" href="#Hugh-Laurie---Saint-James-Infirmary-(Let-Them-Talk,-A-Celebration-of-New-Orleans-Blues)">&#182;</a></h2><p>In this section we test audioLIME using spleeter:5stems as our separation model on a song found on YouTube. Unfortunately the video owner disabled playback on other websites, please click "Watch on YouTube."</p>
 <p>The predictions and analyses are performed on 3-second snippets (because this is how the model is implemented), and each snippet is treated individually. This is different from temporal segmentation mentioned in the paper (see Section 2.2), which would segment each 3-second input snippet in the desired number of segments.</p>
 
 </div>
