@@ -22,3 +22,15 @@ This web page accompanies the thesis written by Verena Praher ``Human-friendly E
 ## Concept-based Explanations (Chapter 5)
 
 * [ISMIR 2022](https://github.com/CPJKU/composer_concept)
+
+
+## Technical Details
+
+If you want to reproduce figures (from this repository, which only contains additional figures; for other figures see the corresponding publications and repositories) install the following libaries (ran with Python 3.12.0):
+
+- seaborn=0.13.2
+- scikit-image=0.25.0
+- librosa=0.10.2.post1
+<!-- - Cython=3.0.11
+- madmom=0.16.1 -->
+
