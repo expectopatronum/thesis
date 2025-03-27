@@ -6,18 +6,18 @@ This web page accompanies the thesis written by Verena Praher ``Human-friendly E
 
 ### Demonstration on Real-world Data: Automatic Music Tagging
 
-* [MML2020](https://soundcloud.com/veroamilbe/sets/mml2020-explanation-example)
-* [ISMIR2020](https://expectopatronum.github.io/thesis/chapter3/towards_musically_meaningful_explanations.html)
+* [audioLIME: Listenable Explanations Using Source Separation (MML2020)](https://soundcloud.com/veroamilbe/sets/mml2020-explanation-example)
+* [Towards Musically Meaningful Explanations Using Source Separation](https://expectopatronum.github.io/thesis/chapter3/towards_musically_meaningful_explanations.html)
 
 
 ### Demonstration on Real-world Data: Music Recommendation
 
-* [LEMONS](https://github.com/cpjku/lemons)
+* [LEMONS: Listenable Explanations for Music recOmmeNder Systems](https://github.com/cpjku/lemons)
 
 ## Mid-level Interpretable Representations (Chapter 4)
 
-* [Towards Explainable Music Emotion Recognition: The Route via Mid-level Features](https://expectopatronum.github.io/thesis/chapter4/ismir_example.html)
-* [Two-level Explanations for Music Emotion Recognition](https://expectopatronum.github.io/thesis/chapter4/ICML_example.html)
+* [Towards Explainable Music Emotion Recognition: The Route via Mid-level Features (ISMIR 2019)](https://expectopatronum.github.io/thesis/chapter4/ismir_example.html)
+* [Two-level Explanations for Music Emotion Recognition (ML4MD @ ICML 2019)](https://expectopatronum.github.io/thesis/chapter4/ICML_example.html)
 
 ## Concept-based Explanations (Chapter 5)
 
